@@ -1,1 +1,39 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+.card {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 200px;
+  height: 300px;
+  font-size: 60px;
+}
+
+.suit-top {
+  margin-top: -20px;
+  height: 10%;
+  margin-left: 5px;
+}
+.suit-bottom {
+  text-align: left;
+  margin-bottom: -20px;
+  height: 10%;
+  transform: rotate(180deg);
+  margin-right: 5px;
+}
+
+.card-value {
+  text-align: center;
+  height: 80%;
+  transform: translateY(30%);
+}
+
+.red {
+  color: red;
+}
+.black {
+  color: black;
+}
